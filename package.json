@@ -1,0 +1,11 @@
+{
+  "name": "begreen-website",
+  "version": "1.0.0",
+  "description": "A begreen website for the year ones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Gomer",
+  "license": "ISC"
+}
