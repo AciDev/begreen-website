@@ -1,0 +1,57 @@
+.team-wrapper {
+  @apply flex flex-col;
+}
+
+.team-content {
+  @apply w-full mx-auto my-4;
+}
+
+.team-content h2 {
+  @apply text-xl py-4;
+}
+
+.team-picture {
+  @apply w-full h-auto relative;
+}
+
+.team-picture:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  @apply h-full w-full absolute rounded-lg rounded-lg border-begreen-paint border-2;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.team-picture:hover:before {
+  background-color: unset;
+}
+
+.team-image {
+  @apply w-full h-auto rounded-lg;
+}
+
+.team-title {
+  @apply pb-8 text-gray-100 bottom-0 text-center text-xl font-bold w-full absolute z-10;
+}
+
+.team-content-new {
+  @apply w-full mx-auto my-4;
+}
+
+.team-content-new h2 {
+  @apply text-xl py-4;
+}
+
+.team-picture-new {
+  @apply w-auto h-auto relative inline-block m-3;
+}
+
+.team-image-new {
+  @apply w-32 h-32 rounded-full border-begreen-paint border-2;
+}
+
+.team-title-new {
+  @apply text-gray-900 text-2xl font-semibold text-center w-32 block;
+}
